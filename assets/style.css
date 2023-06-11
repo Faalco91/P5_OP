@@ -99,10 +99,18 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	/*color: #fff;*/
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+.active-tag{
+	background-color: #BEB45A;
+
+}
+.nav-item:hover {
+	cursor: pointer;
+}
+
 .nav-pills .nav-link {
 	color: #000
 }

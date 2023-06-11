@@ -237,9 +237,9 @@
       }
     },
     filterByTag() {
-      /* if ($(this).hasClass("active-tag")) {
+       if ($(this).hasClass("active-tag")) {
         return;
-      }/*/
+      }
       $(".active-tag").removeClass("active active-tag");
       $(this).addClass("active-tag");
 
